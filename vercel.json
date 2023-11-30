@@ -1,0 +1,6 @@
+{
+  "version": 2,
+  "name": "Doctor_Appointment_Server",
+  "builds": [{ "src": "./index.js", "use": "@vercel/node" }],
+  "routes": [{ "src": "/(.*)", "dest": "/" }]
+}
